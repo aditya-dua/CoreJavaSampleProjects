@@ -1,0 +1,17 @@
+package stack.example.java;
+
+public class StackEx {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private class Node{
+		private Node next=null;
+		
+	}
+
+}

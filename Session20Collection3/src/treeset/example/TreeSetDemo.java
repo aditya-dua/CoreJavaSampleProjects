@@ -1,0 +1,23 @@
+package treeset.example;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<String> ts= new TreeSet<>();
+		ts.add("Zoom");
+		ts.add("Ravi");
+		ts.add("Vishal");
+		ts.add("Amit");
+		ts.add("Ram");
+		
+		
+		for (String string : ts) {
+			System.out.println(":::: "+string);
+		}
+	}
+
+}

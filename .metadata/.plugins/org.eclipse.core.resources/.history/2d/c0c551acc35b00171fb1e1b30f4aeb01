@@ -1,0 +1,31 @@
+package com.example.arraylist.demo;
+
+import java.util.ArrayList;
+
+public class ArrayListReplaceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> nameList=new ArrayList<>();
+		// capacity : in : 40 bytes
+		nameList.add("Shanti");
+		nameList.add("Bhawani");
+		nameList.add("Nitish N");
+		nameList.add("Nitish S");
+		nameList.add("Vamshi");
+		
+		ArrayList<String> studentNameList=new ArrayList<>(nameList);
+		studentNameList.add("Uma");
+		studentNameList.add("Sumith");
+		studentNameList.add("Mithun");
+		studentNameList.add("Vishwas");
+		
+		
+		String replace="Sumith";
+		for(int i=0;i<studentNameList.size();i++){
+			String name=studentNameList.get(i).toString();
+		}
+	}
+
+}

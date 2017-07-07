@@ -1,0 +1,9 @@
+package generics.example;
+
+public class Student {
+
+	public String Name;
+	public String phoneNumber;
+	
+	
+}

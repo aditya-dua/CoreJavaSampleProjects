@@ -1,0 +1,16 @@
+package linkedlist.example;
+
+import java.util.LinkedList;
+
+public class LinkedListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LinkedList<String> listexample= new LinkedList<>();
+		listexample.add("Aditya");
+		listexample.addFirst("Exmaple");
+		listexample.offer("New Example")
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ByteStreamExample.java&apos; to &apos;Session16Demo/src/bytestream.example&apos;&#x0A;- Original project: &apos;Session16Demo&apos;&#x0A;- Destination element: &apos;Session16Demo/src/bytestream.example&apos;&#x0A;- Original element: &apos;create.dir.example.ByteStreamExample.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;bytestream.example" element1="/src&lt;create.dir.example{ByteStreamExample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1498108409509" units="1" version="1.0"/>
+</session>

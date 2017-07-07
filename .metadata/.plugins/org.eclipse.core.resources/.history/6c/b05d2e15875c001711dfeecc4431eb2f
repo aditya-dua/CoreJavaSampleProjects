@@ -1,0 +1,18 @@
+package generic.set.example;
+
+import java.util.HashSet;
+
+public class SetDemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<Student> studentSet = new HashSet<>();
+		Student s= new Student(1,"a",25 );
+		studentSet.add(s);
+		s= new Student(2,"ab",26 );
+		studentSet.add(s);
+		
+	}
+
+}

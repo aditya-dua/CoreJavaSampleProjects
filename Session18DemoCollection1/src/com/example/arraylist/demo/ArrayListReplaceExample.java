@@ -1,0 +1,48 @@
+package com.example.arraylist.demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListReplaceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> nameList=new ArrayList<>();
+		// capacity : in : 40 bytes
+		nameList.add("Shanti");
+		nameList.add("Bhawani");
+		nameList.add("Nitish N");
+		nameList.add("Nitish S");
+		nameList.add("Vamshi");
+		
+		ArrayList<String> studentNameList=new ArrayList<>(nameList);
+		studentNameList.add("Uma");
+		studentNameList.add("Sumith");
+		studentNameList.add("Mithun");
+		studentNameList.add("Vishwas");
+		
+		
+		String replace="Sumith";
+		int i=0,j=0;
+		Iterator<String> studentIterator=studentNameList.iterator();
+		while (studentIterator.hasNext()) {
+			i++;
+			String string = (String) studentIterator.next();
+			
+			if(string.equals(replace)){
+				studentIterator.remove();
+				j=i;
+			}
+			
+		}
+		studentNameList.add(j, "Sumith Reddy");
+		
+		
+		for( String studentName : studentNameList){
+			System.out.println(studentName);
+		}
+		
+	}
+
+}

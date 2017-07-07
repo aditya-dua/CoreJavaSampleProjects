@@ -1,0 +1,13 @@
+package com.example.hashmaps;
+
+public class Book {
+
+	String authorName;
+	String bookName;
+	int price;
+	int bookId;
+	
+	
+	
+	
+}

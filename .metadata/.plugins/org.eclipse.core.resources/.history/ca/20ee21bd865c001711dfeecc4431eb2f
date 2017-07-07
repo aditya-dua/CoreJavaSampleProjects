@@ -1,0 +1,9 @@
+package generic.set.example;
+
+public class Student {
+
+	int id;
+	String name;
+	int age;
+	
+}

@@ -1,0 +1,17 @@
+package treeset.example;
+
+import java.util.TreeSet;
+
+public class TreeSetEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<Employee> tsEmp=new TreeSet<>();
+		Employee e= new Employee(1, "Aditya", "12345");
+		
+		
+		tsEmp.add(e)
+	}
+
+}

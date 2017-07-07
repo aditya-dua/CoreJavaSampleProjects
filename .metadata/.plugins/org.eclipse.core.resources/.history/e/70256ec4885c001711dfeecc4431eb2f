@@ -1,0 +1,35 @@
+package generic.set.example;
+
+import java.util.Collections;
+import java.util.HashSet;
+
+public class SetDemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<Student> studentSet = new HashSet<>();
+		Student s= new Student(1,"a",25 );
+		studentSet.add(s);
+		
+		s= new Student(2,"ab",26 );
+		studentSet.add(s);
+		s= new Student(1,"b",25 );
+		studentSet.add(s);
+		
+		//Collections.sort();
+		
+		/**
+		 * Iterate :: Using for-Each Loop
+		 */
+		System.out.println("Info About student is Set is ::");
+		for (Student student : studentSet) {
+			System.out.println("ID :"+student.id);
+			System.out.println("Name :"+student.name);
+			System.out.println("Age :"+student.age);
+			
+		}
+		
+	}
+
+}

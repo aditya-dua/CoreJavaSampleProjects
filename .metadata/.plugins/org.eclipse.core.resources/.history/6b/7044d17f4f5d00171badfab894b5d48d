@@ -1,0 +1,25 @@
+package com.example.hashmaps;
+
+import java.util.HashMap;
+
+public class HashMapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/** 
+		 * What is a Hash Map ? 
+		 * What is a Map ? Is Map a Collection ? 
+		 */
+		
+		HashMap<Integer , String> exampleMap=new HashMap<>();
+		exampleMap.put(1, "Aditya");
+		exampleMap.put(2, "Rachit");
+		exampleMap.put(4, "Sumit");
+		
+		exampleMap.put(2, "Rohit");
+		
+		/// Any doubts till here 
+	}
+
+}

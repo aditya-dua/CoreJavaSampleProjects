@@ -1,0 +1,33 @@
+package stack.example.java;
+
+public class StackEx {
+	
+	private Node top=null;
+	private int length=0;
+	
+	/**
+	 * Method : PUSH(int data)
+	 * @param args
+	 */
+	public void push(int item){
+		Node node=new Node(item);
+		if(top== null){
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private class Node{
+		private Node next=null;
+		private int data = 0;
+		
+		private Node(int value){
+			this.data=value;
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.arraylist.demo.ArrayListTraversal&apos; to &apos;ArrayListTraversalUsingForLoop&apos;&#x0A;- Original project: &apos;Session18DemoCollection1&apos;&#x0A;- Original element: &apos;com.example.arraylist.demo.ArrayListTraversal&apos;&#x0A;- Renamed element: &apos;com.example.arraylist.demo.ArrayListTraversalUsingForLoop&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayListTraversal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.arraylist.demo{ArrayListTraversal.java[ArrayListTraversal" matchStrategy="1" name="ArrayListTraversalUsingForLoop" qualified="false" references="true" similarDeclarations="false" stamp="1498627009898" textual="false" version="1.0"/>
+</session>

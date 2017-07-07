@@ -1,0 +1,9 @@
+package treeset.example;
+
+public class Employee {
+
+	int id;
+	String name;
+	String phone;
+	
+}
